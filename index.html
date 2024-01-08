@@ -38,6 +38,50 @@
         <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
       </div>
     </nav>
+    <section id="profile">
+      <div class="section__pic-container">
+        <img src="./assets/profile-pic.png" alt="Profile Picture">
+      </div>
+      <div class="section__text">
+        <p class="section__text__p1">Hello I'm</p>
+        <h1 class="title">gomacodev</h1>
+        <p class="section__text__p2">Frontend developer</p>
+      </div>
+      <div class="btn__container">
+        <button 
+           class="btn btn-color-2"
+           onclick="window.open('./assets/resume-example.pdf')"
+        >
+          Download CV
+        </button>
+        <button 
+           class="btn btn-color-1"
+           onclick="location.href='./#contact'"
+        >
+          Contact info
+        </button>
+        <div id="social-containers">
+          <a 
+            href="https://www.linkedin.com/in/diegooooodominguez"
+            target="_blank">
+            <img 
+               src="./assets/linkedin.svg"
+               alt="My LinkedIn profile" 
+               class="icon"
+            >
+          </a>
+          <a 
+            href="https://github.com/gomaog"
+            target="_blank">
+            <img 
+               src="./assets/square-github.svg"
+               alt="My GitHub profile" 
+               class="icon"
+            >
+          </a>
+        </div>
+      </div>
+    </section>
     <script src="script.js"></script>
   </body>
 </html>
